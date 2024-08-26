@@ -64,5 +64,5 @@ To get started, follow these steps:
     Password: password
    ```
 
-This project is part of our OJT task 
+This is the initial version of my HRIS Project.
 
