@@ -9,12 +9,12 @@ To get started, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mark-villanueva/hris-app.git
+   git clone https://github.com/mark-villanueva/hris-app-main.git
    ```
 
 2. Navigate to the cloned directory:
    ```bash
-   cd hris-app
+   cd hris-app-main
    ```
 
 3. Install Composer dependencies:
@@ -34,7 +34,7 @@ To get started, follow these steps:
 
 6. Migrate the database:
    ```bash
-   php artisan migrate:fresh
+   php artisan migrate
    ```
 
 7. Generate Permissions and/or Policies for Filament entities
@@ -64,11 +64,5 @@ To get started, follow these steps:
     Password: password
    ```
 
-## Additional: Use this if the app is slow 
-  ```bash
-php artisan icons:cache
-  ```
-
-
-This project is part of our OJT task 
+This is the initial version of my HRIS Project.
 
